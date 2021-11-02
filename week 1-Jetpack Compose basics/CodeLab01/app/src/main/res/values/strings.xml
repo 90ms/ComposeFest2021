@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CodeLab01</string>
+
+    <string name="author">90MS</string>
+
+    <string name="text_description">90MS 첫주 과제 들어가기</string>
+    <string name="text_join">입장하기</string>
+
+    <string name="show_less">less</string>
+    <string name="show_more">more</string>
+</resources>
