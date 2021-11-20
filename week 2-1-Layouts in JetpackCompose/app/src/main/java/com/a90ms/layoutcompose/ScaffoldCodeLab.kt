@@ -28,7 +28,8 @@ fun LayoutsCodelab() {
             )
         }
     ) { innerPadding ->
-        BodyContent(Modifier.padding(innerPadding))
+//        BodyContent(Modifier.padding(innerPadding))
+        CustomBodyContent(Modifier.padding(innerPadding))
     }
 }
 

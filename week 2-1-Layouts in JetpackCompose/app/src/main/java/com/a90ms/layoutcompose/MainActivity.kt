@@ -31,7 +31,10 @@ class MainActivity : ComponentActivity() {
             LayoutsCodelabTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    ScrollingList()
+//                    PhotographerCard()
+                    LayoutsCodelab()
+//                    ScrollingList()
+//                    CustomBodyContent()
                 }
             }
         }
