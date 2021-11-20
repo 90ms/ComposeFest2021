@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
             LayoutsCodelabTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    PhotographerCard()
+                    ScrollingList()
                 }
             }
         }
@@ -55,7 +55,7 @@ fun PhotographerCard(modifier: Modifier = Modifier) {
             shape = CircleShape,
             color = MaterialTheme.colors.onSurface.copy(alpha = 0.2f)
         ) {
-            //Image gose here
+            //
         }
         Column(
             modifier = Modifier
